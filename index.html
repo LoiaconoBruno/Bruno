@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div id="cursor-glow"></div>
+  <div class="noise"></div>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo"><span class="gold">◈</span> Portfolio</div>
+    <button class="nav-hamburger" id="hamburger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="nav-links">
+      <a href="#sobre-mi" class="lhov">Sobre mí</a>
+      <a href="#mundo" class="lhov">Mundo</a>
+      <a href="#contacto" class="lhov">Contacto</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-line"></div>
+
+    <div class="hero-content">
+      <div class="hero-eyebrow fade-hero" style="transition-delay:0.2s">
+        Ingeniero · Músico · Explorador
+      </div>
+      <h1 class="fade-hero" style="transition-delay:0.4s">
+        Hay quienes<br>
+        <em class="gold">miran las estrellas.</em><br>
+        <span class="dim">Yo calculo</span><br>
+        <span class="dim">cómo llegar.</span>
+      </h1>
+      <p class="hero-sub fade-hero" style="transition-delay:0.7s">
+        Ingeniería Electrónica, código backend, violín clásico y picos de montaña.<br>
+        No es una lista de hobbies — es la misma curiosidad expresada de distintas formas.
+      </p>
+      <div class="fade-hero" style="transition-delay:1s">
+        <a href="#sobre-mi" class="btn-gold">Conocerme →</a>
+      </div>
+    </div>
+
+    <div class="hero-img fade-hero" style="transition-delay:0.8s">
+      <div class="img-frame">
+        <img src="assets/lago.jpg" alt="Patagonia" class="chov">
+        <div class="img-label" style="bottom:-20px;right:-20px;">Tierra del Fuego</div>
+      </div>
+    </div>
+
+    <div class="hero-coords fade-hero" style="transition-delay:1.5s">
+      54.8019° S, 68.3030° W<br>
+      <span class="gold-dim">Buenos Aires → Europa</span>
+    </div>
+
+    <div class="scroll-indicator fade-hero" style="transition-delay:2s">
+      <span class="scroll-text">scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section id="sobre-mi" class="section">
+    <div class="fade-in">
+      <div class="section-label">01 / Sobre mí</div>
+      <h2>La ciencia y el arte<br><em class="gold">nunca fueron opuestos.</em></h2>
+    </div>
+
+    <div class="two-col">
+      <div>
+        <p class="fade-in" style="transition-delay:0.1s">
+          Estudio Ingeniería Electrónica con la mirada puesta en proyectos espaciales en Europa.
+          No por romanticismo, sino por convicción: soy alguien que necesita entender cómo funciona
+          todo — desde la estructura del átomo hasta la mecánica orbital de un satélite.
+          El espacio no es una fantasía. Es el problema más difícil que existe, y eso es exactamente
+          lo que lo hace interesante.
+        </p>
+        <p class="fade-in" style="transition-delay:0.2s">
+          Fuera de la facultad, escribe sistemas backend que priorizan seguridad y eficiencia,
+          da clases de materias técnicas — porque enseñar obliga a entender de verdad —
+          y toca el violín con la misma seriedad con la que estudia física.
+          No son mundos separados. Son distintas formas de buscar precisión y belleza al mismo tiempo.
+        </p>
+        <div class="quotes fade-in" style="transition-delay:0.3s">
+          <blockquote>"La física te dice cómo funciona el universo.</blockquote>
+          <blockquote class="quote-second">La música te dice cómo sentirlo."</blockquote>
+        </div>
+      </div>
+
+      <div class="fade-in" style="transition-delay:0.15s">
+        <div class="img-frame">
+          <img src="assets/bote.jpg" alt="Ushuaia" class="chov"
+            style="aspect-ratio:3/4;object-fit:cover;object-position:top;">
+          <div class="img-label" style="bottom:-18px;left:-18px;">Canal Beagle, Ushuaia</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MUNDO -->
+  <section id="mundo" class="section surface">
+    <div class="fade-in">
+      <div class="section-label">02 / Mundo</div>
+      <h2>Una vida diseñada<br><em class="gold">con intención.</em></h2>
+    </div>
+
+    <div class="interests-grid">
+      <div class="interest-card fade-in" style="transition-delay:0.00s"><span
+          class="interest-icon">♟</span><span>Ajedrez & Sudoku</span></div>
+      <div class="interest-card fade-in" style="transition-delay:0.06s"><span
+          class="interest-icon">🎻</span><span>Violín</span></div>
+      <div class="interest-card fade-in" style="transition-delay:0.12s"><span
+          class="interest-icon">⛰</span><span>Senderismo & Escalada</span></div>
+      <div class="interest-card fade-in" style="transition-delay:0.18s"><span
+          class="interest-icon">🛸</span><span>Proyectos Espaciales</span></div>
+      <div class="interest-card fade-in" style="transition-delay:0.24s"><span class="interest-icon">📐</span><span>Cubo
+          de Rubik</span></div>
+      <div class="interest-card fade-in" style="transition-delay:0.30s"><span
+          class="interest-icon">🎿</span><span>Snowboard</span></div>
+      <div class="interest-card fade-in" style="transition-delay:0.36s"><span
+          class="interest-icon">📚</span><span>Física & Literatura</span></div>
+      <div class="interest-card fade-in" style="transition-delay:0.42s"><span class="interest-icon">🎸</span><span>Rock
+          Clásico</span></div>
+      <div class="interest-card fade-in" style="transition-delay:0.48s"><span
+          class="interest-icon">🌍</span><span>Aprender Idiomas</span></div>
+      <div class="interest-card fade-in" style="transition-delay:0.54s"><span
+          class="interest-icon">🧩</span><span>Rompecabezas</span></div>
+      <div class="interest-card fade-in" style="transition-delay:0.60s"><span
+          class="interest-icon">🍳</span><span>Cocinar</span></div>
+      <div class="interest-card fade-in" style="transition-delay:0.66s"><span
+          class="interest-icon">🪨</span><span>Geología</span></div>
+    </div>
+
+    <!-- Gato -->
+    <div class="two-col two-col-cat fade-in">
+      <div>
+        <h3>Ama los animales.<br><em class="gold">Especialmente este.</em></h3>
+        <p>
+          Tiene un gato persa naranja que se llama Werner Heisenberg y ocupa más espacio
+          en la silla de trabajo del que debería. No parece importarle demasiado.
+          Dice que le enseñó algo sobre la confianza tranquila.
+        </p>
+        <p class="cat-caption">— El verdadero dueño de la casa</p>
+      </div>
+      <div>
+        <div class="img-frame">
+          <img src="assets/gato.jpg" alt="Werner Heisenberg" class="chov"
+            style="aspect-ratio:4/3;object-fit:cover;object-position:center 40%;">
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Música -->
+    <div class="two-col fade-in">
+      <div>
+        <h3>Bach y Oasis<br><em class="gold">conviven bien.</em></h3>
+        <p>
+          El violín no es nostalgia — es la forma más directa de entender que la disciplina
+          y la expresión no se excluyen. Cuando termina de practicar, pone Guns N' Roses.
+          No ve la contradicción.
+        </p>
+      </div>
+      <div class="tags">
+        <span class="tag">Música Clásica</span>
+        <span class="tag">Oasis</span>
+        <span class="tag">Queen</span>
+        <span class="tag">The Beatles</span>
+        <span class="tag">Guns N' Roses</span>
+        <span class="tag">Violín</span>
+        <span class="tag">Rock Clásico</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISIÓN -->
+  <section class="section">
+    <div class="fade-in">
+      <div class="section-label">03 / Visión</div>
+    </div>
+    <h2 class="vision-h2 fade-in" style="transition-delay:0.1s">
+      No tengo un plan B.<br><em class="gold">Tampoco lo necesito.</em>
+    </h2>
+    <p class="vision-p fade-in" style="transition-delay:0.2s">
+      El objetivo es trabajar en GNC espacial en Europa: Guidance, Navigation and Control,
+      el problema de hacer que un vehículo sepa exactamente dónde está en el universo
+      y cómo llegar adonde tiene que llegar. No hay nada más cercano a lo que soy:
+      con la preparación técnica, el idioma, y la mentalidad necesarios para estar
+      donde se construyen las misiones que importan. Cada línea de código, cada ecuación,
+      cada hora de práctica al violín — todo apunta en la misma dirección.
+    </p>
+    <p class="vision-p fade-in" style="transition-delay:0.3s">
+      No hay prisa innecesaria. Pero tampoco hay tiempo que perder.
+    </p>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section surface text-center">
+    <div class="fade-in">
+      <div class="section-label">04 / Contacto</div>
+      <h2>Si algo de esto<br><em class="gold">resonó contigo,</em></h2>
+      <p class="contacto-sub">probablemente valga la pena hablar.</p>
+      <div class="contacto-info">
+        <div>
+          <div class="contacto-label">Email</div>
+          <a href="mailto:loiaconobruno08@gmail.com" class="contacto-link">loiaconobruno08@gmail.com</a>
+        </div>
+        <div>
+          <div class="contacto-label">Teléfono</div>
+          <a href="tel:+5491138586002" class="contacto-link">+54 9 11 3858-6002</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-left">© 2025 — Hecho con intención.</div>
+    <div class="footer-right"><span class="gold-dim">◈</span> Buenos Aires, Argentina</div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
